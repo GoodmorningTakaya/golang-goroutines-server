@@ -8,7 +8,9 @@ This is a HTTP Server that:
   that have been made to retrieve the time using a GET request to the root
 - Each time a request is made, use a channel to send the request IP and last fetched time
   as well as the request time to another go routine which will log this data to a newline
-  delimited file named logs in the following format: <request-ip>-<current-time>-<request-time>
+  delimited file named logs in the following format: 
+  
+    <request-ip>-<current-time>-<request-time>
 
 
 
